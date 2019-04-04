@@ -7,10 +7,10 @@ library("plotly")
 library(quantmod)
 # ------------------------------------------------------------------------------------------
 # Reading data from CSV
-Telstra_Hist_data <- read.csv(file="AGL.AX.csv", header = TRUE, sep=",")
+AGL_data <- read.csv(file="AGL.AX.csv", header = TRUE, sep=",")
 
 # Formatting Date information and storing data in new variable
-Odata <- Telstra_Hist_data[-1;,]
+Odata <- AGL_data[-1,]
 Odata$Date <- as.Date(Odata$Date, format="%d/%m/%Y")
 # ------------------------------------------------------------------------------------------
 # Creating column for Trends - Increasing and Decreasing
