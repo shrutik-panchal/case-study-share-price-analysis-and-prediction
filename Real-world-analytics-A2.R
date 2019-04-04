@@ -52,7 +52,7 @@ for (i in 2:length(AGL_data[,1])){
   #print(i)
 }
 
-0
+shapiro.test(Odata$Daily_Return)
 
 HistGraphDistribution <- Odata %>%
   plot_ly(x = ~Daily_Return, type = "histogram", histnorm = "probability") %>%
@@ -60,8 +60,7 @@ HistGraphDistribution <- Odata %>%
          xaxis = list(title = "Daily Returns"))
 
 HistGraphDistribution
-# ------------------------------------------------------------------------------------------
-
+# # ------------------------------------------------------------------------------------------
 # # Drift Calculation - daily and annualised
 # sampleData <- 62
 # annualDays <- 249
@@ -84,4 +83,4 @@ HistGraphDistribution
 # volat.annual <- sqrt((annualDays/(annualDays*(sampleData-1))) * sum(Odata$Daily_ReturnMeanSQ))
 # volat.annual*100
 # # ------------------------------------------------------------------------------------------
-# 
+
