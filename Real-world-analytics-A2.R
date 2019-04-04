@@ -52,7 +52,7 @@ for (i in 2:length(AGL_data[,1])){
   #print(i)
 }
 
-shapiro.test(Odata$Daily_Return)
+0
 
 HistGraphDistribution <- Odata %>%
   plot_ly(x = ~Daily_Return, type = "histogram", histnorm = "probability") %>%
@@ -61,26 +61,27 @@ HistGraphDistribution <- Odata %>%
 
 HistGraphDistribution
 # ------------------------------------------------------------------------------------------
-# Drift Calculation - daily and annualised
-sampleData <- 62
-annualDays <- 249
-drift.daily <- (1/(annualDays*sampleData))*sum(Odata$Daily_Return)
-drift.daily*100
-drift.annual <- (annualDays/(annualDays*sampleData))*sum(Odata$Daily_Return)
-drift.annual*100
-# ------------------------------------------------------------------------------------------
-# Volatility Calculation - daily and annulisedv
 
-# Daily return - mean of daily return and whole square
-MeanDailyReturn <- mean(Odata$Daily_Return)
-
-for (i in 2:length(AGL_data[,1])){
-  Odata$Daily_ReturnMeanSQ[i-1] <- (Odata$Daily_Return[i-1] - MeanDailyReturn)^2
-}
-# Calculation
-volat.daily <- sqrt((1/(annualDays*(sampleData-1))) * sum(Odata$Daily_ReturnMeanSQ))
-volat.daily*100
-volat.annual <- sqrt((annualDays/(annualDays*(sampleData-1))) * sum(Odata$Daily_ReturnMeanSQ))
-volat.annual*100
-# ------------------------------------------------------------------------------------------
-
+# # Drift Calculation - daily and annualised
+# sampleData <- 62
+# annualDays <- 249
+# drift.daily <- (1/(annualDays*sampleData))*sum(Odata$Daily_Return)
+# drift.daily*100
+# drift.annual <- (annualDays/(annualDays*sampleData))*sum(Odata$Daily_Return)
+# drift.annual*100
+# # ------------------------------------------------------------------------------------------
+# # Volatility Calculation - daily and annulisedv
+# 
+# # Daily return - mean of daily return and whole square
+# MeanDailyReturn <- mean(Odata$Daily_Return)
+# 
+# for (i in 2:length(AGL_data[,1])){
+#   Odata$Daily_ReturnMeanSQ[i-1] <- (Odata$Daily_Return[i-1] - MeanDailyReturn)^2
+# }
+# # Calculation
+# volat.daily <- sqrt((1/(annualDays*(sampleData-1))) * sum(Odata$Daily_ReturnMeanSQ))
+# volat.daily*100
+# volat.annual <- sqrt((annualDays/(annualDays*(sampleData-1))) * sum(Odata$Daily_ReturnMeanSQ))
+# volat.annual*100
+# # ------------------------------------------------------------------------------------------
+# 
