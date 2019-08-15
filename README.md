@@ -43,3 +43,12 @@ A simplified version of GBM is as follows:
 
 ![Image-3](/Images/Image3.png)
 
+### Data Distribution:
+To use Geometric Brownian Motion effectively (Sengupta, 2004),
+- Continuous stock prices in terms of time and value
+- Proportional return of share prices needs to be log-normally distributed
+- Normal distribution of continuous compounded return for a stock
+
+Hence keeping these in mind,
+Distribution of daily return obtained using the formula follows: 
+Daily Return: 𝑅𝑖 = (𝑆𝑖 − 𝑆𝑖−1)/𝑆𝑖−1
