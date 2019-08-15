@@ -51,4 +51,13 @@ To use Geometric Brownian Motion effectively (Sengupta, 2004),
 
 Hence keeping these in mind,
 Distribution of daily return obtained using the formula follows: 
+
 Daily Return: 𝑅𝑖 = (𝑆𝑖 − 𝑆𝑖−1)/𝑆𝑖−1
+
+![Graph-3](/Images/Daily_Return_Distribution.png)
+
+As per graph 3, it is visible that data is slightly right-skewed hence we need to confirm that if data can be assumed as normally distributed or not. Hence, will use Shapiro-Wilk test of normality to determine that the data can be taken for further analysis or not.
+
+The received result of Shapiro-Wilk test using R is as follows:
+*W = 0.97805 and p-value = 0.3308*
+Here, received p-value is greater than 0.05 that implies the distribution of the data is not significantly different from normally distributed data hence can be considered normally distributed.
