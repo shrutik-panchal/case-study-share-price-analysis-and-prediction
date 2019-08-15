@@ -31,12 +31,15 @@ Stock price prediction techniques have seen many growth, challenges and changes 
 
 **Geometric Brownian Motion (GBM):** The Geometric Brownian Motion is most suitable to describe the behaviours of timeseries data and in this scenario, it helps with the random or unpredictable behaviours of stock prices with keeping track of stock volatility and drift (Dmouj, 2006; Shamiri and Isa, 2010; Reddy and Clinton, 2016).
 A simplified version of GBM is as follows:
+
 ![Image-1](/Images/Image1.png)
 
 **Volatility:** The volatility, an annual percentage, denotes the stability (constant characteristic) of stock price where high value means high or constant variation during large interval whereas medium and low value means medium or less variations in given interval (Dmouj, 2006; Shamiri and Isa, 2010). Usually, volatility is measured by the standard deviation of the price returns however more practical approach is to observe past data for fixed timeframe (Dmouj, 2006; Badriah and Nazifah, 2018).
 A simplified version of GBM is as follows:
+
 ![Image-2](/Images/Image2.png)
 
 **Drift:** The drift rate, an average rate of return where price of shares changes in given period, can be obtained as follows:
+
 ![Image-3](/Images/Image3.png)
 
