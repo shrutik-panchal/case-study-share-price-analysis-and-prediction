@@ -61,3 +61,8 @@ As per graph 3, it is visible that data is slightly right-skewed hence we need t
 The received result of Shapiro-Wilk test using R is as follows:
 *W = 0.97805 and p-value = 0.3308*
 Here, received p-value is greater than 0.05 that implies the distribution of the data is not significantly different from normally distributed data hence can be considered normally distributed.
+
+### Volatility and Drift calculation and values - Daily and Annualised
+![Image-4](/Images/Image4.png)
+
+The above table shows the values (𝜎, 𝜇) obtained from 3 months data and 1 month’s data. Formulas 2 and 3 are used to calculate drift and volatility for daily and annualised foresight calculations where appropriate values of m has been used to calculate the scores. It is clearly visible that with changes in days/time there is effect on the values of both volatility and drift. It is noticeable that there is decrease in the values of sigma when the sample size is reduced hence we can assume that the model performance might get reduced as it won’t be able to track variations accurately compared to the model trained with 3 months sample size. Mixed effect can be observed in the values of drift where there is increase in value of daily return however decrease in annual return values. Theoretically, there should be decrease in the accuracy of the model when the sample size is decreased however we will look at the model performance using sigma and mu values obtained from both the model in next question.
