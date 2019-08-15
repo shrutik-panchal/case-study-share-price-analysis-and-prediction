@@ -65,4 +65,14 @@ Here, received p-value is greater than 0.05 that implies the distribution of the
 ### Volatility and Drift calculation and values - Daily and Annualised
 ![Image-4](/Images/Image4.png)
 
-The above table shows the values (𝜎, 𝜇) obtained from 3 months data and 1 month’s data. Formulas 2 and 3 are used to calculate drift and volatility for daily and annualised foresight calculations where appropriate values of m has been used to calculate the scores. It is clearly visible that with changes in days/time there is effect on the values of both volatility and drift. It is noticeable that there is decrease in the values of sigma when the sample size is reduced hence we can assume that the model performance might get reduced as it won’t be able to track variations accurately compared to the model trained with 3 months sample size. Mixed effect can be observed in the values of drift where there is increase in value of daily return however decrease in annual return values. Theoretically, there should be decrease in the accuracy of the model when the sample size is decreased however we will look at the model performance using sigma and mu values obtained from both the model in next question.
+The above table shows the values (𝜎, 𝜇) obtained from 3 months data and 1 month’s data. Above mentioned Formulas for Volatility and Drift are used in calculation for daily and annualised foresight calculations where appropriate values of m has been used to calculate the scores. It is clearly visible that with changes in days/time there is effect on the values of both volatility and drift. It is noticeable that there is decrease in the values of sigma when the sample size is reduced hence we can assume that the model performance might get reduced as it won’t be able to track variations accurately compared to the model trained with 3 months sample size. Mixed effect can be observed in the values of drift where there is increase in value of daily return however decrease in annual return values. Theoretically, there should be decrease in the accuracy of the model when the sample size is decreased however we will look at the model performance using sigma and mu values obtained from both the model in next question.
+
+### Prediction:
+![Image-5](/Images/Image5.png)
+
+The above table shows 10 days of share price prediction till 15th June 2018 where performance of model trained with 3 months of historical data seem to be performing better compared to model trained with only 1-month data however the difference in MAPE score is not too wide and as per the score results, we can denote that the model is highly accurate to predict the share price whether it is based on 3 months data or only 1 month’s data.
+Here MAPE (Mean Absolute Percentage Error) score, widely use to evaluate algorithm performance, has been used to measure the forecast prediction accuracy which can be obtained using below formula:
+
+Absolute Percentage Error (APE): 𝜀1 = |(𝐴𝑐𝑡𝑢𝑎𝑙−𝐹𝑜𝑟𝑒𝑐𝑎𝑠𝑡)/𝐴𝑐𝑡𝑢𝑎𝑙| × 100%
+Using above formula, MAPE: 𝜖 = 𝜀1/𝑛 where n is number of forecast
+
