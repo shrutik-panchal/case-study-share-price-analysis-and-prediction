@@ -84,10 +84,17 @@ The performance of the model based on input data (3 months) considered was very 
 
 ### Bibliography:
 Badriah, N. A. and Nazifah, S. (2018) ‘SCIENCE & TECHNOLOGY Forecasting Share Prices Accurately For One Month Using Geometric Brownian Motion’, 26(4), pp. 1619–1635.
+
 Dmouj, A. (2006) ‘Stock price modelling : Theory and Practice’, Masters Degree Thesis, Vrije Universiteit.
+
 Fama, E. F. (1995) ‘Random Walks in Stock Market Prices’, Financial Analysts Journal, 51(1), pp. 75– 80. doi: 10.2469/faj.v51.n1.1861.
+
 Maruddani and Trimono (2018) ‘Stock price prediction using geometric Brownian motion Related content Modeling stock prices in a portfolio using multidimensional geometric brownian motion Stock price prediction using geometric Brownian motion’, J. Phys, p. 12047. doi: 10.1088/1742- 6596/974/1/012047.
+
 Nelson, B. L. (1995) Stochastic modeling : analysis and simulation. McGraw-Hill (McGraw-Hill series in industrial engineering and management science). Available at: http://ezproxy.deakin.edu.au/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=ca t00097a&AN=deakin.b1782173&site=eds-live&scope=site.
+
 Reddy, K. and Clinton, V. (2016) ‘Simulating Stock Prices Using Geometric Brownian Motion: Evidence from Australian Companies’, Australasian Accounting, Business and Finance Journal, 10(3), pp. 23–47. doi: 10.14453/aabfj.v10i3.3.
+
 Shamiri, A. and Isa, Z. (2010) ‘Modeling and Forecasting Volatility of the Malaysian Stock Markets’, Journal of Mathematics and Statistics, 5(3), pp. 234–240. doi: 10.3844/jmssp.2009.234.240.
+
 Sengupta, C. (2004). Financial modelling using Excel and VBA. New Jersey, United States: John Wiley & Sons.
