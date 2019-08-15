@@ -24,3 +24,19 @@ The graph 2 is candlestick graph. This graph, a Japanese Candlestick Graph, is w
 
 ![Graph-2](/Images/CandlestickGraph_Overview.png)
 
+### Geometric Brownian Motion (GBM):
+Stock price prediction techniques have seen many growth, challenges and changes over long-time where each model proposes a different approach to solve in hand challenges. Two common techniques to analyse the stock data are qualitative and quantitative (technical and fundamental) where qualitative techniques focus on experience of experts to predict outcomes and quantitative techniques focus on historical/past data to predict the patterns and behaviour that tend to recur in coming future (Fama, 1995; Nelson, 1995; Reddy and Clinton, 2016; Badriah and Nazifah, 2018). Stock prices exhibit unpredictable and random behaviour, a random walk theory, hence cannot exclude the risk while predicting the stock price at given period (Fama, 1995; Shamiri and Isa, 2010; Maruddani and Trimono, 2018).
+
+*(Note: In this analysis, financial year 1st July 2017 to 30th June 2018 has been considered and there were approximately 249 working/trading days)*
+
+**Geometric Brownian Motion (GBM):** The Geometric Brownian Motion is most suitable to describe the behaviours of timeseries data and in this scenario, it helps with the random or unpredictable behaviours of stock prices with keeping track of stock volatility and drift (Dmouj, 2006; Shamiri and Isa, 2010; Reddy and Clinton, 2016).
+A simplified version of GBM is as follows:
+![Image-1](/Images/Image1.png)
+
+**Volatility:** The volatility, an annual percentage, denotes the stability (constant characteristic) of stock price where high value means high or constant variation during large interval whereas medium and low value means medium or less variations in given interval (Dmouj, 2006; Shamiri and Isa, 2010). Usually, volatility is measured by the standard deviation of the price returns however more practical approach is to observe past data for fixed timeframe (Dmouj, 2006; Badriah and Nazifah, 2018).
+A simplified version of GBM is as follows:
+![Image-2](/Images/Image2.png)
+
+**Drift:** The drift rate, an average rate of return where price of shares changes in given period, can be obtained as follows:
+![Image-3](/Images/Image3.png)
+
