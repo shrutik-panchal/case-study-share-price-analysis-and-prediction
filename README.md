@@ -23,4 +23,4 @@ Company’s share price behaviour and performance (Day vs Closing Price) is show
 The graph 2 is candlestick graph. This graph, a Japanese Candlestick Graph, is widely used to represent the stock data as it shows Open, Close, Low and High values of a stock for a day however it is good to use this graph for short period of data as it might cause information overload to people with less knowledge. Also, colours can also suggest about the growth in share price or not hence it is easy to visualise multiple values/data at a same time.
 
 ![Graph-2](/Images/CandlestickGraph_Overview.png)
-Format: ![Alt Text](url)
+
