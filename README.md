@@ -74,5 +74,20 @@ The above table shows 10 days of share price prediction till 15th June 2018 wher
 Here MAPE (Mean Absolute Percentage Error) score, widely use to evaluate algorithm performance, has been used to measure the forecast prediction accuracy which can be obtained using below formula:
 
 Absolute Percentage Error (APE): 𝜀1 = |(𝐴𝑐𝑡𝑢𝑎𝑙−𝐹𝑜𝑟𝑒𝑐𝑎𝑠𝑡)/𝐴𝑐𝑡𝑢𝑎𝑙| × 100%
+
 Using above formula, MAPE: 𝜖 = 𝜀1/𝑛 where n is number of forecast
 
+### Company's Performance Summary:
+AGL Energy Limited used to be above neutral to outperform category stock however during April’18, it is noticeable that there was a sudden fall in share price and the reason turned out to be that the competitors used to provide more offers that were below market prices in exchange for larger and longer contracts. Their Liddell power plant project also got rejected hence during the April there were noticeable changes in share price data. Because of the sudden changes in share price, the drift rate and volatility rate were affected hence the annual return of the company and performance decreased at some extent.
+
+The performance of the model based on input data (3 months) considered was very accurate hence it helps to foresight short-term very accurately, with around only 4 percent of error, however we cannot denote anything about long-term foresight because it wasn’t analysed during this evaluation (Dmouj, 2006). The model should be normally distributed and that’s the basic criteria to apply GBM however in real world, all the stock prices are timeseries data hence it’s hard to find perfect bell curve in data hence other measures to check the normality of the data is required. In this model, Shapiro-Wilk test has been used where the value of p should be greater than 0.05.
+
+### Bibliography:
+Badriah, N. A. and Nazifah, S. (2018) ‘SCIENCE & TECHNOLOGY Forecasting Share Prices Accurately For One Month Using Geometric Brownian Motion’, 26(4), pp. 1619–1635.
+Dmouj, A. (2006) ‘Stock price modelling : Theory and Practice’, Masters Degree Thesis, Vrije Universiteit.
+Fama, E. F. (1995) ‘Random Walks in Stock Market Prices’, Financial Analysts Journal, 51(1), pp. 75– 80. doi: 10.2469/faj.v51.n1.1861.
+Maruddani and Trimono (2018) ‘Stock price prediction using geometric Brownian motion Related content Modeling stock prices in a portfolio using multidimensional geometric brownian motion Stock price prediction using geometric Brownian motion’, J. Phys, p. 12047. doi: 10.1088/1742- 6596/974/1/012047.
+Nelson, B. L. (1995) Stochastic modeling : analysis and simulation. McGraw-Hill (McGraw-Hill series in industrial engineering and management science). Available at: http://ezproxy.deakin.edu.au/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=ca t00097a&AN=deakin.b1782173&site=eds-live&scope=site.
+Reddy, K. and Clinton, V. (2016) ‘Simulating Stock Prices Using Geometric Brownian Motion: Evidence from Australian Companies’, Australasian Accounting, Business and Finance Journal, 10(3), pp. 23–47. doi: 10.14453/aabfj.v10i3.3.
+Shamiri, A. and Isa, Z. (2010) ‘Modeling and Forecasting Volatility of the Malaysian Stock Markets’, Journal of Mathematics and Statistics, 5(3), pp. 234–240. doi: 10.3844/jmssp.2009.234.240.
+Sengupta, C. (2004). Financial modelling using Excel and VBA. New Jersey, United States: John Wiley & Sons.
